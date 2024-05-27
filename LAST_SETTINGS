@@ -1,0 +1,43 @@
+Recv: echo:; Linear Units:
+Recv: echo:  G21 ; (mm)
+Recv: echo:; Temperature Units:
+Recv: echo:  M149 C ; Units in Celsius
+Recv: echo:; Filament settings (Disabled):
+Recv: echo:  M200 S0 D1.75
+Recv: echo:; Steps per unit:
+Recv: echo:  M92 X322.35 Y319.49 Z1605.58 E402.57
+Recv: echo:; Max feedrates (units/s):
+Recv: echo:  M203 X1500.00 Y1500.00 Z100.00 E100.00
+Recv: echo:; Max Acceleration (units/s2):
+Recv: echo:  M201 X9000.00 Y9000.00 Z100.00 E10000.00
+Recv: echo:; Acceleration (units/s2) (P<print-accel> R<retract-accel> T<travel-accel>):
+Recv: echo:  M204 P500.00 R3000.00 T500.00
+Recv: echo:; Advanced (B<min_segment_time_us> S<min_feedrate> T<min_travel_feedrate> X<max_jerk> Y<max_jerk> Z<max_jerk> E<max_jerk>):
+Recv: echo:  M205 B20000.00 S0.00 T0.00 X10.00 Y10.00 Z0.30 E5.00
+Recv: echo:; Home offset:
+Recv: echo:  M206 X0.00 Y0.00 Z0.00
+Recv: echo:; Unified Bed Leveling:
+Recv: echo:  M420 S1 Z10.00 ; Leveling ON
+Recv:
+Recv: Unified Bed Leveling System v1.01 active
+Recv: echo:Active Mesh Slot 0
+Recv: echo:EEPROM can hold 50 meshes.
+Recv:
+Recv: echo:; Material heatup parameters:
+Recv: echo:  M145 S0 H180.00 B70.00 F0
+Recv: echo:  M145 S1 H240.00 B110.00 F0
+Recv: echo:; Hotend PID:
+Recv: echo:  M301 P25.11 I1.78 D89.01
+Recv: echo:; Bed PID:
+Recv: echo:  M304 P36.81 I4.89 D184.53
+Recv: echo:; Z-Probe Offset:
+Recv: echo:  M851 X-40.49 Y0.01 Z-1.80 ; (mm)
+Recv: echo:; Stepper driver current:
+Recv: echo:  M906 X800 Y800 Z800
+Recv: echo:  M906 T0 E800
+Recv: echo:; Driver stepping mode:
+Recv: echo:  M569 S1 X Y Z
+Recv: echo:  M569 S1 T0 E
+Recv: echo:; Linear Advance:
+Recv: echo:  M900 K0.00
+Recv: ok
